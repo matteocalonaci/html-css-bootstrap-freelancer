@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(44, 62, 80);
+}
+
+
+.col-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.color-start {
+    background-color: rgb(26, 188, 156);
+}
+
+
+.card {
+    background-color: red;
+    border-radius: 1rem;
+    min-height: 10rem;
+}
+
+.image {
+    border-radius: 100%;
+}
+
+.send {
+    border-radius: 0.3rem;
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border: 0.1rem solid rgb(26, 188, 156);
+}
+
+.color-end {
+    background-color: rgb(58, 84, 109);
+}
+
+
+
+.green {
+    color: rgb(30, 176, 150);
+}
+
+p i {
+    border-radius: 100%;
+    border: 0.1rem solid white;
+}
+
+footer {
+    background-color: rgb(44, 62, 80);
+}
