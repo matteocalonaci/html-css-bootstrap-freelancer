@@ -17,27 +17,63 @@
 
 <!-- header -->
 <header>
-    <div class="container">
-        <div class="row">
-            <div class="col-1">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <h4><b>START BOOTSTRAP</b></h4>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">HIDDEN MENU</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+
+                        </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <div class="col-1">
             </div>
             <div class="col-3">
                 <div class="box m-3 ms-0 text-white">
                     <h4><b>START BOOTSTRAP</b></h4>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-2">
                 <div class="box"></div>
             </div>
-            <div class="col-3 d-flex justify-content-end d-flex align-items-center">
+            <div class="col-5 d-flex justify-content-end d-flex align-items-end
+            d-flex align-items-center">
                 <div class="box"><a class="p-2" href="">PORTFOLIO</a>
                     <a class="p-2" href="#">ABOUT</a>
                     <a class="p-2" href="#">CONTACT</a>
                 </div>
             </div>
 
-            <div class="col-2">
-            </div>
+            <div class="col-1"> -->
+    </div>
 
 
 </header>
@@ -49,11 +85,15 @@
     <section class="color-start">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-2">
                 </div>
-                <div class="col-4">
-                    <div class="box text-center text-white">
-                        <div class="image text-center"><img src="" alt=""></div>
+                <div class="col-8">
+                    <div class="box pt-5  pb-3 text-center text-white">
+                        <div class="container p-5">
+                            <div class="imagetext-center">
+                                <img src="./IMG/avatar.svg" class="img-fluid" alt="">
+                            </div>
+                        </div>
                         <h2>START BOOTSTRAP</h2>
                         <div>
                             --------------- <i class="fa-solid fa-star"></i>
@@ -62,7 +102,7 @@
                         <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-2">
                 </div>
             </div>
 
@@ -81,29 +121,39 @@
             <div class="col-1">
             </div>
             <div class="col-10 bg-white">
-                <div class="row mb-5">
-                    <div class="col-4 pb-4">
-                        <div class="card">
-                            <div class="image text-center">
+                <div class="row mb-5 d-flex flex-wrap">
 
-                            </div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/cabin.png" alt="">
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card"></div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/cake.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card"></div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/circus.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card"></div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/game.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card"></div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/safe.png" alt="">
+                        </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card"></div>
+                    <div class="col-12 col-md-6 col-xl-4 p-2">
+                        <div class="card">
+                            <img src="./IMG/submarine.png" alt="">
+                        </div>
                     </div>
+
                 </div>
             </div>
             <div class="col-1">
@@ -126,14 +176,20 @@
                 </div>
                 <div class="col-8 text-white">
                     <div class="row">
-                        <div class="col-6 ps-4 pe-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, aut.
+                        <div class="col-12 col-md-6 col-xl-6 mb-3 ps-4 pe-4">Lorem ipsum dolor, sit amet consectetur
+                            adipisicing elit. Est,
+                            aut.
                             Nemo
-                            reprehenderit quia voluptates molestias possimus expedita impedit in incidunt voluptate at
+                            reprehenderit quia voluptates molestias possimus expedita impedit in incidunt voluptate
+                            at
                             aut, eligendi sed doloribus maxime, blanditiis quam eaque?
                         </div>
-                        <div class="col-6 ps-4 pe-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                        <div class="col-12 col-md-6 col-xl-6 ps-4 pe-4">Lorem, ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Beatae
                             architecto
-                            placeat magnam repudiandae, porro ipsum sed eius optio provident aspernatur earum facilis
+                            placeat magnam repudiandae, porro ipsum sed eius optio provident aspernatur earum
+                            facilis
                             iure? Cum eaque ipsum dolore aliquam eveniet tenetur.</div>
                     </div>
                 </div>
@@ -161,22 +217,44 @@
             <div class="col-2">
             </div>
             <div class="col-8 ps-4 pe-4">
-                <span>Name</span>
-                <hr>
-                <span> Email Address
-                </span>
-                <hr>
-                <span> Phone Number
-                </span>
-                <hr>
-                <span>Message</span>
-                <hr class="pdd mt-5">
-                <button type="button" class="send">Send</button>
-            </div>
-            <div class="col-2">
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name">
+                                </div>
+                                <hr>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="mb-3">
+                                    <label for="number" class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="number">
+                                </div>
+                                <hr>
+                                <div class="form-floating">
+                                    <label for="floatingTextarea">Message</label>
+                                    <textarea class="form-control" placeholder="Leave a comment here"
+                                        id="floatingTextarea"></textarea>
+                                    <label for="floatingTextarea">Message</label>
+                                </div>
+                                <button type="submit" class="btn mt-4">Send</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                </div>
             </div>
         </div>
-    </div>
 
 
 
@@ -194,11 +272,11 @@
                 </div>
                 <div class="col-10">
                     <div class="row">
-                        <div class="col-4 text-center text-white pt-3">
+                        <div class="col-12 col-md-4 col-lg-4 text-center text-white pt-3">
                             <h4>LOCATION</h4>
                             <p>2215 John Daniel Drive Clarck, MO <br> 54243 </p>
                         </div>
-                        <div class="col-4 text-center text-white pt-3">
+                        <div class="col-12 col-md-4 col-lg-4 text-center text-white pt-3">
                             <h4>AROUND THE WEB</h4>
                             <p> <i class="fa-brands fa-facebook p-3 m-1"></i>
                                 <i class="fa-brands fa-google-plus-g p-3 m-1"></i>
@@ -206,7 +284,7 @@
                                 <i class="fa-brands fa-linkedin p-3 m-1"></i>
                             </p>
                         </div>
-                        <div class="col-4 text-center text-white pt-3">
+                        <div class="col-12 col-md-4 col-lg-4 text-center text-white pt-3">
                             <H4>ABOUT FREELANCER</H4>
                             <p> Freelance is a free to use, open source Bootstrap theme created by <span class="green">
                                     Start <br> Bootstrap</span>.</p>
@@ -221,10 +299,11 @@
 
 
     </section>
-
-    <div class="row">
-        <div class="col-12 text-center text-white p-4">
-            <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center text-white mt-2">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2019</p>
+            </div>
         </div>
     </div>
 

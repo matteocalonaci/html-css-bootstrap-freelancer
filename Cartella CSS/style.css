@@ -3,27 +3,22 @@ header {
 }
 
 
-.col-3 a {
+
+
+/* .col-5 a {
     text-decoration: none;
     color: white;
-}
+} */
 
 .color-start {
     background-color: rgb(26, 188, 156);
 }
 
-
-.card {
-    background-color: red;
-    border-radius: 1rem;
-    min-height: 10rem;
+.img-fluid {
+    max-width: 100%;
 }
 
-.image {
-    border-radius: 100%;
-}
-
-.send {
+.btn {
     border-radius: 0.3rem;
     background-color: rgb(26, 188, 156);
     color: white;
@@ -47,4 +42,14 @@ p i {
 
 footer {
     background-color: rgb(44, 62, 80);
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .img-fluid {
+        max-width: 35%;
+    }
+
 }
