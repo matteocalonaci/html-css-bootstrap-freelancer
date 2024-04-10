@@ -2,13 +2,10 @@ header {
     background-color: rgb(44, 62, 80);
 }
 
-
-
-
-/* .col-5 a {
-    text-decoration: none;
+.navbar-toggler-icon {
     color: white;
-} */
+}
+
 
 .color-start {
     background-color: rgb(26, 188, 156);
@@ -29,7 +26,9 @@ header {
     background-color: rgb(58, 84, 109);
 }
 
-
+.card img {
+    border-radius: 2rem;
+}
 
 .green {
     color: rgb(30, 176, 150);
@@ -50,6 +49,11 @@ footer {
 
     .img-fluid {
         max-width: 35%;
+    }
+
+    #navbarText {
+        display: flex;
+        justify-content: flex-end;
     }
 
 }
